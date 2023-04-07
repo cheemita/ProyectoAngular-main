@@ -1,0 +1,24 @@
+#header nav ul.nav-main ul.dropdown-menu,
+#header nav ul.nav-main li.dropdown.open .dropdown-toggle,
+#header nav ul.nav-main li.active a,
+#header nav ul.nav-main li > a:hover,
+#header nav ul.nav-main li.dropdown:hover a {
+	color: #FFF;
+	background-color: #444545 !important;
+}
+
+a {
+	color: #000000;
+}
+
+.facebook{
+
+	margin-right: .5cm;
+
+}
+.twitter{
+
+	margin-right: .5cm;
+
+}
+

@@ -1,0 +1,72 @@
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-ribbon">
+                <span>Mantente en contacto!</span>
+            </div>
+            <div class="col-md-3">
+                <div class="newsletter">
+                    <h4>Para qué es esto?</h4>
+                    <p>La finalidad de crear esta página es para pasar un buen rato, no nos referimos a ver porno, si no a desarrollar nuestras habilidades como programadores.
+                    </p>
+
+                    <div class="alert alert-success hidden" id="newsletterSuccess">
+                        <strong>Success!</strong> You've been added to our email list.
+                    </div>
+
+                    <div class="alert alert-danger hidden" id="newsletterError"></div>
+
+                    <form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
+                        <div class="input-group">
+                            <input class="form-control" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">Go!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h4>Últimos tweets</h4>
+                <div id="tweet" class="twitter" data-plugin-tweets data-plugin-options='{"username": "", "count": 2}'>
+                    <p>no hay XD</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-details">
+                    <h4>Contacto</h4>
+                    <ul class="contact">
+                        <li>
+                            <p><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-phone"></i> <strong>Phone:</strong> (123) 456-7890</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="https://www.xnxx.com/">mail@example.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <ul class="social-icons">
+                        <li class="facebook"><a href="http://www.facebook.com/" target="_blank" data-placement="bottom" data-tooltip title="Facebook">Facebook</a></li>
+                        <li class="twitter"><a href="http://www.twitter.com/" target="_blank" data-placement="bottom" data-tooltip title="Twitter">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7" >
+                    <p>© Copyright 2022. All Rights Reserved.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</footer>
